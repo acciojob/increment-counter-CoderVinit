@@ -1,12 +1,12 @@
 //your JS code here. If required.
-let count = 0;
-let button = document.getElementById("btn")
-let paragraph = document.getElementById('para')
+let inital_value = 0;
+let button = document.getElementById("incrementBtn")
+let paragraph = document.getElementById('counter')
 
-paragraph.textContent = count;
+paragraph.textContent = inital_value;
 
 button.addEventListener('click',()=>{
-	alert(count)
-	paragraph.textContent = ++count
+	alert(inital_value)
+	paragraph.textContent = ++inital_value
 	
 })
